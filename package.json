@@ -1,0 +1,25 @@
+{
+  "name": "decidr-rebuild",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EthanJob/decidr-rebuild.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EthanJob/decidr-rebuild/issues"
+  },
+  "homepage": "https://github.com/EthanJob/decidr-rebuild#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^5.0.1",
+    "morgan": "^1.9.0",
+    "pretty-error": "^2.1.1"
+  }
+}
