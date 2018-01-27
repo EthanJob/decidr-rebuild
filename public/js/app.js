@@ -10,6 +10,10 @@ app.controller('MainController', ['$http', function($http) {
   this.rest = false;
   this.sugg = false;
 
+  this.data = (rickAndMorty);
+
+  console.log(this.data);
+
   this.createSuggestion = () => {
     $http({
       url: '/suggestions',
