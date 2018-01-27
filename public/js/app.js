@@ -6,6 +6,10 @@ app.controller('MainController', ['$http', function($http) {
 
   this.createForm = {};
 
+  this.home = true;
+  this.rest = false;
+  this.sugg = false;
+
   this.createSuggestion = () => {
     $http({
       url: '/suggestions',
@@ -31,5 +35,31 @@ app.controller('MainController', ['$http', function($http) {
   }
 
   this.getSuggestions();
+
+  this.activeShow = ($scope) => {
+    if ($scope.class !== "active") {
+      $scope.class === "active";
+    } else {
+      console.log('no changes');
+    }
+  }
+
+  this.episodePage = () => {
+    this.home = true;
+    this.rest = false;
+    this.sugg = false;
+  }
+
+  this.restPage = () => {
+    this.home = false;
+    this.rest = true;
+    this.sugg = false;
+  }
+
+  this.suggPage = () => {
+    this.home = false;
+    this.rest = false;
+    this.sugg = true;
+  }
 
 }]);
