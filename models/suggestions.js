@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const suggestionSchema = mongoose.Schema({
-  content: String,
+  content: { type: String, required: true },
   likes: { type: Number, default: 0 }
 });
 
