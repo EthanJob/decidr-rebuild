@@ -3,12 +3,62 @@
   <head>
     <meta charset="utf-8">
     <title>Decidr</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Megrim" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js" charset="utf-8"></script>
     <script type="text/javascript" src='/js/app.js'></script>
   </head>
   <body ng-controller='MainController as ctrl'>
-    <h1>Decidr</h1>
-    <p>{{ ctrl.tester }}</p>
+    <header>
+      <div class="title">
+        <div class="topItems">
+          <h1 id="titleLink">Decidr</h1>
+          <div class="navbar">
+            <div class="nav ep">
+              <span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span>
+              <p>TV Shows</p>
+            </div>
+            <div class="nav rest">
+              <span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span>
+              <p>Restaurants</p>
+            </div>
+            <div class="nav sugg">
+              <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+              <p>Suggestions</p>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </header>
+    <div class="pageTitle">
+      <div class="titleItems">
+        <h2>Episode Generator</h2>
+        <h4>Select a show</h4>
+      </div>
+    </div>
+    <div class="shows">
+      <div class="showIcon">
+        <img class="active icon" id="rick" src="images/rick-and-morty-icon.jpg" alt="Rick and Morty icon">
+        <h4>Rick and Morty</h4>
+      </div>
+      <div class="showIcon">
+        <img class="icon" id="bob" src="images/burger-icon.jpg" alt="Bob's Burgers icon">
+        <h4>Bob's Burgers</h4>
+      </div>
+      <div class="showIcon">
+        <img class="icon" id="office" src="images/office-logo-2.jpg" alt="The Office icon">
+        <h4>The Office</h4>
+      </div>
+    </div>
+    <div id='btn-area'>
+      <button id='gen-btn' type="button">Generate Random Episode</button>
+    </div>
+    <div class="results">
+      <!-- Appending Here -->
+    </div>
+    <footer>Created by Ethan Jobmann</footer>
   </body>
 </html>
