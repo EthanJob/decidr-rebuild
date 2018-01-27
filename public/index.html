@@ -78,6 +78,25 @@
 
     <!-- RESTAURANT PAGE -->
 
+    <!-- SUGGESTIONS PAGE -->
+    <div ng-if="ctrl.sugg === true">
+      <div class="pageTitle">
+        <div class="titleItems">
+          <h2>Suggestions</h2>
+          <h4>Add a show you'd like to see on Decidr</h4>
+        </div>
+      </div>
+
+      <div class="suggestionShow">
+        <div ng-repeat="suggestion in ctrl.suggestions" class="suggItem">
+          <h4>{{ suggestion.content }}</h4>
+          <h4>Likes: {{ suggestion.likes }}</h4>
+        </div>
+      </div>
+    </div>
+
+    <!-- SUGGESTIONS PAGE -->
+
     <footer>Created by Ethan Jobmann</footer>
   </body>
 </html>
