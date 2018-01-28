@@ -15,7 +15,7 @@
     <header>
       <div class="title">
         <div class="topItems">
-          <h1 id="titleLink">Decidr</h1>
+          <h1 id="titleLink" ng-click="ctrl.reload()">Decidr</h1>
           <div class="navbar">
             <div class="nav ep" ng-click="ctrl.episodePage()">
               <span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span>
@@ -105,7 +105,9 @@
         <div ng-repeat="suggestion in ctrl.suggestions" class="suggItem">
           <div class="sameLine">
             <h4 ng-dblclick="ctrl.deleteSugg(suggestion)">{{ suggestion.content }}</h4>
-            <h4><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> {{ suggestion.likes }}</h4>
+            <div class="likeItem" ng-click="ctrl.likeSugg()">
+              <h4><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> {{ suggestion.likes }}</h4>
+            </div>
           </div>
           <hr>
         </div>
@@ -113,7 +115,7 @@
 
       <div class="addSuggestion">
         <form class="addForm" ng-submit="ctrl.createSuggestion()">
-          <input class="submit" type="text" ng-model="ctrl.formData.content" required/>
+          <input class="submit" type="text" ng-model="ctrl.formData.content" placeholder="Show Title" required/>
           <button class="submit" type="submit">+</button>
         </form>
       </div>

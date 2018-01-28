@@ -12,7 +12,9 @@ app.controller('MainController', ['$http', function($http) {
 
   this.data = (rickAndMorty);
 
-  console.log(this.data);
+  this.reload = () => {
+    location.reload();
+  }
 
   this.createSuggestion = () => {
     $http({
@@ -54,6 +56,10 @@ app.controller('MainController', ['$http', function($http) {
     }, error => {
       console.error(error.message);
     }).catch(err => console.err('Catch', err));
+  }
+
+  this.likeSugg = (suggestion) => {
+    console.log("liked suggestion");
   }
 
   this.activeShow = ($scope) => {
