@@ -170,18 +170,15 @@ body {
   text-align: center;
   display: row;
   justify-content: center;
-  height: 500px;
+  height: 300px;
   width: 500px;
   border: 4px solid black;
-  border-radius: 6%;
+  border-radius: 20px;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .suggItem {
-  /* border: 1px solid red; */
-  /* display: flex; */
-  /* justify-content: space-around; */
   margin-left: 12px;
   margin-right: 12px;
 }
@@ -189,6 +186,21 @@ body {
 .sameLine {
   display: flex;
   justify-content: space-around;
+}
+
+.suggContent {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.submit {
+  border-radius: 5px;
+  color: black;
+}
+
+input {
+  width: 200px;
+  color: black;
 }
 
 footer {

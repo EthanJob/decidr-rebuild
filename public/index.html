@@ -93,7 +93,7 @@
     <!-- RESTAURANT PAGE -->
 
     <!-- SUGGESTIONS PAGE -->
-    <div ng-if="ctrl.sugg === true">
+    <div class="suggContent" ng-if="ctrl.sugg === true">
       <div class="pageTitle">
         <div class="titleItems">
           <h2>Suggestions</h2>
@@ -104,11 +104,18 @@
       <div class="suggestionShow">
         <div ng-repeat="suggestion in ctrl.suggestions" class="suggItem">
           <div class="sameLine">
-            <h4>{{ suggestion.content }}</h4>
+            <h4 ng-dblclick="ctrl.deleteSugg(suggestion)">{{ suggestion.content }}</h4>
             <h4><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> {{ suggestion.likes }}</h4>
           </div>
           <hr>
         </div>
+      </div>
+
+      <div class="addSuggestion">
+        <form class="addForm" ng-submit="ctrl.createSuggestion()">
+          <input class="submit" type="text" ng-model="ctrl.formData.content" required/>
+          <button class="submit" type="submit">+</button>
+        </form>
       </div>
     </div>
 
