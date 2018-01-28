@@ -198,8 +198,19 @@ body {
 }
 
 .submit {
+  height: 40px;
+  min-width: 40px;
+  font-size: 22px;
   border-radius: 5px;
   color: black;
+  background-color: rgb(225, 11, 20);
+  border-color: rgb(225, 11, 20);
+}
+
+.bar {
+  width: 300px;
+  background-color: white;
+  border-color: black;
 }
 
 input {
