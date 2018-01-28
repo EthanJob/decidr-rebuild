@@ -193,6 +193,10 @@ body {
   text-align: center;
 }
 
+.likeItem:hover {
+  cursor: pointer;
+}
+
 .submit {
   border-radius: 5px;
   color: black;
