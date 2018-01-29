@@ -44,24 +44,41 @@
         </div>
       </div>
       <div class="shows">
-        <div class="showIcon" ng-click="ctrl.activeShow()">
+        <div class="showIcon" ng-click="ctrl.activeShow('rick')">
           <img class="icon" id="rick" src="images/rick-and-morty-icon.jpg" alt="Rick and Morty icon">
           <h4>Rick and Morty</h4>
         </div>
-        <div class="showIcon" ng-click="ctrl.activeShow()">
+        <div class="showIcon" ng-click="ctrl.activeShow('bob')">
           <img class="icon" id="bob" src="images/burger-icon.jpg" alt="Bob's Burgers icon">
           <h4>Bob's Burgers</h4>
         </div>
-        <div class="showIcon" ng-click="ctrl.activeShow()">
+        <div class="showIcon" ng-click="ctrl.activeShow('office')">
           <img class="icon" id="office" src="images/office-logo-2.jpg" alt="The Office icon">
           <h4>The Office</h4>
         </div>
       </div>
       <div id='btn-area'>
-        <button id='gen-btn' type="button">Generate Random Episode</button>
+        <button id='gen-btn' type="button" ng-click="ctrl.begin()">Generate Random Episode</button>
       </div>
-      <div class="results">
-        <!-- Appending Here -->
+      <div class="results" ng-if="ctrl.main === true">
+        <div class="show">
+          <h3>{{ ctrl.showName }}</h3>
+        </div>
+        <div class="season">
+          <h4>Season {{ ctrl.season }}</h4>
+        </div>
+        <div class="episode">
+          <h4>Episode {{ ctrl.episode }}</h4>
+        </div>
+        <div class="ep-title">
+          <h4>"{{ ctrl.title }}"</h4>
+        </div>
+        <div class="ep-pic">
+          <img src="{{ctrl.image}}" alt="image unavailable">
+        </div>
+        <div class="ep-link">
+          <a href="{{ctrl.link}}" target="_blank"><h4>Watch here</h4></a>
+        </div>
       </div>
     </div>
     <!-- EPISODE PAGE -->
