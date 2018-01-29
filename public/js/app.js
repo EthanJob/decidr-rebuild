@@ -73,7 +73,7 @@ app.controller('MainController', ['$http', function($http) {
     if (this.active === true) {
       this.main = true;
     } else {
-      console.log("select a show first");
+      alert("Select a show first!");
     }
   }
 
