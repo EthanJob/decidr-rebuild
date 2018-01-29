@@ -2,15 +2,91 @@ const app = angular.module('DecidrApp', []);
 
 app.controller('MainController', ['$http', function($http) {
 
-  this.tester = 'testing angular';
-
   this.formData = {};
 
+  this.showData = {};
+
+  // RANDOM EPISODE DATA >
+  this.main = false;
+  this.active = false;
+
+  this.showName = null;
+  this.season = null;
+  this.episode = null;
+  this.title = null;
+  this.image = null;
+  this.link = null;
+  // RANDOM EPISODE DATA <
+
+  // RANDOM EPISODE DATA TEST >
+  // this.main = true;
+  //
+  // this.showName = 'Rick and Morty';
+  // this.season = 1;
+  // this.episode = 3;
+  // this.title = 'that one episode';
+  // this.image = 'https://wp-test.sencha.com/wp-content/uploads/2016/02/icon-sencha-test-studio-1.png';
+  // this.link = 'https://www.google.com';
+  // RANDOM EPISODE DATA TEST <
+
+  // FUNCTIONALITY >
+  this.activeShow = (show) => {
+    if (show === 'rick') {
+      this.main = false;
+      this.active = true;
+      this.showData = (rickAndMorty);
+      this.showName = "Rick and Morty";
+      console.log("show:", this.showData);
+    } else if (show === 'bob') {
+      this.main = false;
+      this.active = true;
+      this.showData = (bobsBurgers);
+      this.showName = "Bob's Burgers";
+      console.log("show:", this.showData);
+    } else if (show === 'office') {
+      this.main = false;
+      this.active = true;
+      this.showData = (theOffice);
+      this.showName = "The Office";
+      console.log("show:", this.showData);
+    } else {
+      this.main = false;
+    }
+
+
+
+
+    console.log("show:", show);
+  }
+
+  this.begin = () => {
+    if (this.active === true) {
+      this.main = true;
+
+      let seasonNum = Math.floor(Math.random()*this.showData.length);
+      let getEpisode = Math.floor(Math.random()*this.showData[seasonNum].episodes.length);
+      let episodeNum = this.showData[seasonNum].episodes[getEpisode].num;
+      let episodeTitle = this.showData[seasonNum].episodes[getEpisode].title;
+      let image = this.showData[seasonNum].episodes[getEpisode].img;
+      let link = this.showData[seasonNum].episodes[getEpisode].link;
+      let actualSeason = seasonNum + 1;
+
+      this.season = actualSeason;
+      this.episode = episodeNum;
+      this.title = episodeTitle;
+      this.image = image;
+      this.link = link;
+    } else {
+      alert("Select a show first!");
+    }
+  }
+  // FUNCTIONALITY <
+
+  // PAGE >
   this.home = true;
   this.rest = false;
   this.sugg = false;
-
-  this.data = (rickAndMorty);
+  // PAGE <
 
   this.reload = () => {
     location.reload();
@@ -60,14 +136,6 @@ app.controller('MainController', ['$http', function($http) {
 
   this.likeSugg = (suggestion) => {
     console.log("liked suggestion");
-  }
-
-  this.activeShow = ($scope) => {
-    if ($scope.class !== "active") {
-      $scope.class === "active";
-    } else {
-      console.log('no changes');
-    }
   }
 
   this.episodePage = () => {

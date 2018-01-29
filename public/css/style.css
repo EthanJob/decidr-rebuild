@@ -157,6 +157,8 @@ body {
 .picture {
   width: 650px;
   height: 400px;
+  border: 2px solid white;
+  border-radius: 5px;
 }
 
 .results {
