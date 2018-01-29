@@ -210,11 +210,33 @@ body {
   border-color: rgb(225, 11, 20);
 }
 
+.plus {
+  color: white;
+}
+
+.plus:focus {
+  outline: 0;
+}
+
+.plus:hover {
+  border-color: white;
+}
+
+.plus:active {
+  background-color: rgb(150, 11, 20);
+  border-color: rgb(150, 11, 20);
+  color: lightgray;
+}
+
 .bar {
   width: 300px;
   background-color: white;
   border-color: black;
   padding-left: 6px;
+}
+
+.bar:focus {
+  outline: 0;
 }
 
 input {
