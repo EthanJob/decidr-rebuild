@@ -222,6 +222,14 @@ input {
   color: black;
 }
 
+.redLink {
+  color: firebrick;
+}
+
+.redLink:hover {
+  color: rgb(225, 11, 20);
+}
+
 footer {
   position: fixed;
   bottom: 0;
