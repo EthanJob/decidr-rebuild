@@ -210,6 +210,24 @@ body {
   border-color: rgb(225, 11, 20);
 }
 
+.plus {
+  color: white;
+}
+
+.plus:focus {
+  outline: 0;
+}
+
+.plus:hover {
+  border-color: white;
+}
+
+.plus:active {
+  background-color: rgb(150, 11, 20);
+  border-color: rgb(150, 11, 20);
+  color: lightgray;
+}
+
 .bar {
   width: 300px;
   background-color: white;
@@ -217,9 +235,21 @@ body {
   padding-left: 6px;
 }
 
+.bar:focus {
+  outline: 0;
+}
+
 input {
   width: 200px;
   color: black;
+}
+
+.redLink {
+  color: firebrick;
+}
+
+.redLink:hover {
+  color: rgb(225, 11, 20);
 }
 
 footer {
