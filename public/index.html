@@ -8,8 +8,8 @@
     <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Megrim" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js" charset="utf-8"></script>
-    <script type="text/javascript" src='/js/app.js'></script>
-    <script src="js/data.js" charset="utf-8"></script>
+    <script type="text/javascript" src='/js/app.js' charset="utf-8"></script>
+    <script type="text/javascript" src="/js/data.js" charset="utf-8"></script>
   </head>
   <body ng-controller='MainController as ctrl'>
     <header>
@@ -74,7 +74,7 @@
           <h4>"{{ ctrl.title }}"</h4>
         </div>
         <div class="ep-pic">
-          <img src="{{ctrl.image}}" alt="image unavailable">
+          <img class="picture" src="{{ctrl.image}}" alt="image unavailable">
         </div>
         <div class="ep-link">
           <a href="{{ctrl.link}}" target="_blank"><h4>Watch here</h4></a>

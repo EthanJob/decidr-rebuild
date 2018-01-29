@@ -4,10 +4,9 @@ app.controller('MainController', ['$http', function($http) {
 
   this.formData = {};
 
-  this.showData = "";
-  // console.log(this.showData);
+  this.showData = {};
 
-  // RANDOM EPISODE DATA
+  // RANDOM EPISODE DATA >
   this.main = false;
   this.active = false;
 
@@ -17,9 +16,9 @@ app.controller('MainController', ['$http', function($http) {
   this.title = null;
   this.image = null;
   this.link = null;
-  // RANDOM EPISODE DATA
+  // RANDOM EPISODE DATA <
 
-  // RANDOM EPISODE DATA TEST
+  // RANDOM EPISODE DATA TEST >
   // this.main = true;
   //
   // this.showName = 'Rick and Morty';
@@ -28,9 +27,9 @@ app.controller('MainController', ['$http', function($http) {
   // this.title = 'that one episode';
   // this.image = 'https://wp-test.sencha.com/wp-content/uploads/2016/02/icon-sencha-test-studio-1.png';
   // this.link = 'https://www.google.com';
-  // RANDOM EPISODE DATA TEST
+  // RANDOM EPISODE DATA TEST <
 
-  // FUNCTIONALITY
+  // FUNCTIONALITY >
   this.activeShow = (show) => {
     if (show === 'rick') {
       this.main = false;
@@ -54,16 +53,7 @@ app.controller('MainController', ['$http', function($http) {
       this.main = false;
     }
 
-    let seasonNum = Math.floor(Math.random()*showData.length);
-    let getEpisode = Math.floor(Math.random()*showData[seasonNum].episodes.length);
-    let episodeNum = showData[seasonNum].episodes[getEpisode].num;
-    let episodeTitle = showData[seasonNum].episodes[getEpisode].title;
-    let image = showData[seasonNum].episodes[getEpisode].img;
-    let link = showData[seasonNum].episodes[getEpisode].link;
-    let actualSeason = seasonNum + 1;
-    let season = actualSeason;
-    let episode = episodeNum;
-    let realTitle = episodeTitle;
+
 
 
     console.log("show:", show);
@@ -72,23 +62,31 @@ app.controller('MainController', ['$http', function($http) {
   this.begin = () => {
     if (this.active === true) {
       this.main = true;
+
+      let seasonNum = Math.floor(Math.random()*this.showData.length);
+      let getEpisode = Math.floor(Math.random()*this.showData[seasonNum].episodes.length);
+      let episodeNum = this.showData[seasonNum].episodes[getEpisode].num;
+      let episodeTitle = this.showData[seasonNum].episodes[getEpisode].title;
+      let image = this.showData[seasonNum].episodes[getEpisode].img;
+      let link = this.showData[seasonNum].episodes[getEpisode].link;
+      let actualSeason = seasonNum + 1;
+
+      this.season = actualSeason;
+      this.episode = episodeNum;
+      this.title = episodeTitle;
+      this.image = image;
+      this.link = link;
     } else {
       alert("Select a show first!");
     }
   }
+  // FUNCTIONALITY <
 
-
-
-
-
-
-  // FUNCTIONALITY
-
-  // PAGE
+  // PAGE >
   this.home = true;
   this.rest = false;
   this.sugg = false;
-  // PAGE
+  // PAGE <
 
   this.reload = () => {
     location.reload();
