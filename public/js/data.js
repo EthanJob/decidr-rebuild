@@ -255,3 +255,95 @@ const theOffice = [
     episodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
   }
 ]
+
+// RESTAURANT DATA
+// LOW RANGE
+
+const lowRange = [
+  {
+    name: "Taco Bell",
+    image: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg",
+    map: "https://www.google.com/maps/search/Taco+Bell"
+  },
+  {
+    name: "McDonald's",
+    image: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg",
+    map: "https://www.google.com/maps/search/Mcdonalds"
+  },
+  {
+    name: "Burger King",
+    image: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg",
+    map: "https://www.google.com/maps/search/burger+king"
+  },
+  {
+    name: "Hardee's",
+    image: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg",
+    map: "https://www.google.com/maps/search/hardee"
+  },
+  {
+    name: "Sonic",
+    image: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg",
+    map: "https://www.google.com/maps/search/sonic"
+  },
+  {
+    name: "Arby's",
+    image: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg",
+    map: "https://www.google.com/maps/search/arbys"
+  },
+  {
+    name: "Wendy's",
+    image: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg",
+    map: "https://www.google.com/maps/search/wendys"
+  },
+  {
+    name: "Little Caesar's",
+    image: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg",
+    map: "https://www.google.com/maps/search/little+caesars"
+  }
+];
+
+// MEDIUM RANGE
+
+const mediumRange = [
+  {
+    name: "Five Guys",
+    image: ""
+  },
+  {
+    name: "Chili's",
+    image: ""
+  },
+  {
+    name: "McAlister's Deli",
+    image: ""
+  },
+  {
+    name: "FATZ",
+    image: ""
+  },
+  {
+    name: "Papa John's Pizza",
+    image: ""
+  },
+  {
+    name: "Mellow Mushroom",
+    image: ""
+  },
+  {
+    name: "Subway",
+    image: ""
+  }
+];
+
+// HIGH RANGE
+
+const highRange = [
+  {
+    name: "Red Robin",
+    image: ""
+  },
+  {
+    name: "Olive Garden",
+    image: ""
+  }
+];
