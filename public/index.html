@@ -61,24 +61,12 @@
         <button id='gen-btn' type="button" ng-click="ctrl.begin()">Generate Random Episode</button>
       </div>
       <div class="results" ng-if="ctrl.main === true">
-        <div class="show">
-          <h3>{{ ctrl.showName }}</h3>
-        </div>
-        <div class="season">
-          <h4>Season {{ ctrl.season }}</h4>
-        </div>
-        <div class="episode">
-          <h4>Episode {{ ctrl.episode }}</h4>
-        </div>
-        <div class="ep-title">
-          <h4>"{{ ctrl.title }}"</h4>
-        </div>
-        <div class="ep-pic">
+          <h2>{{ ctrl.showName }}</h2>
+          <h3>Season {{ ctrl.season }}</h3>
+          <h3>Episode {{ ctrl.episode }}</h3>
+          <h3>"{{ ctrl.title }}"</h3>
           <img class="picture" src="{{ctrl.image}}" alt="image unavailable">
-        </div>
-        <div class="ep-link">
-          <a href="{{ctrl.link}}" target="_blank"><h4>Watch here</h4></a>
-        </div>
+          <a href="{{ctrl.link}}" target="_blank"><h3>Watch here</h3></a>
       </div>
     </div>
     <!-- EPISODE PAGE -->
@@ -92,18 +80,23 @@
         </div>
       </div>
       <div class="shows">
-        <div class="price">
+        <div ng-click="ctrl.activeRest('low')" class="price">
           $
         </div>
-        <div class="price">
+        <div ng-click="ctrl.activeRest('medium')" class="price">
           $$
         </div>
-        <div class="price">
+        <div ng-click="ctrl.activeRest('high')" class="price">
           $$$
         </div>
       </div>
       <div id='btn-area'>
-        <button id='gen-btn' type="button">Generate Random Restaurant</button>
+        <button id='gen-btn' ng-click="ctrl.start()" type="button">Generate Random Restaurant</button>
+      </div>
+      <div class="results" ng-if="ctrl.appear === true">
+        <h3>{{ ctrl.restName }}</h3>
+        <img class="picture" src="{{ctrl.restImage}}" alt="image unavailable">
+        <a href="{{ctrl.restMap}}" target="_blank"><h3>Find the nearest {{ctrl.restName}}</h3></a>
       </div>
     </div>
     <!-- RESTAURANT PAGE -->

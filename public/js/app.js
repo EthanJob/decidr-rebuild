@@ -18,6 +18,17 @@ app.controller('MainController', ['$http', function($http) {
   this.link = null;
   // RANDOM EPISODE DATA <
 
+  // RANDOM RESTAURANT DATA >
+
+  // this.price = null;
+  this.appear = false;
+  this.activePrice = false;
+
+  this.restName = null;
+  this.restImage = null;
+  this.restMap = null;
+  // RANDOM RESTAURANT DATA <
+
   // FUNCTIONALITY >
   this.activeShow = (show) => {
 
@@ -66,6 +77,45 @@ app.controller('MainController', ['$http', function($http) {
       this.link = link;
     } else {
       alert("Select a show first!");
+    }
+  }
+
+  // RESTAURANT FUNCTIONS
+  this.activeRest = (price) => {
+
+    console.log('params:', price);
+
+    if (price === 'low') {
+      this.appear = false;
+      this.searchPrice = (lowRange);
+      this.activePrice = true;
+    } else if (price === 'medium') {
+      this.appear = false;
+      this.searchPrice = (mediumRange);
+      this.activePrice = true;
+    } else if (price === 'high') {
+      this.appear = false;
+      this.searchPrice = (highRange);
+      this.activePrice = true;
+    }
+
+    console.log('variable:', this.searchPrice);
+  }
+
+  this.start = () => {
+    if (this.activePrice === true) {
+      this.appear = true;
+
+      let restData = Math.floor(Math.random()*this.searchPrice.length);
+      let restaurantName = this.searchPrice[restData].name;
+      let restaurantImage = this.searchPrice[restData].image;
+      let restaurantMap = this.searchPrice[restData].map;
+
+      this.restName = restaurantName;
+      this.restImage = restaurantImage;
+      this.restMap = restaurantMap;
+    } else {
+      alert("Select a price range first!");
     }
   }
   // FUNCTIONALITY <
