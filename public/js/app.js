@@ -18,19 +18,11 @@ app.controller('MainController', ['$http', function($http) {
   this.link = null;
   // RANDOM EPISODE DATA <
 
-  // RANDOM EPISODE DATA TEST >
-  // this.main = true;
-  //
-  // this.showName = 'Rick and Morty';
-  // this.season = 1;
-  // this.episode = 3;
-  // this.title = 'that one episode';
-  // this.image = 'https://wp-test.sencha.com/wp-content/uploads/2016/02/icon-sencha-test-studio-1.png';
-  // this.link = 'https://www.google.com';
-  // RANDOM EPISODE DATA TEST <
-
   // FUNCTIONALITY >
   this.activeShow = (show) => {
+
+    console.log("show:", show);
+
     if (show === 'rick') {
       this.main = false;
       this.active = true;
@@ -53,10 +45,6 @@ app.controller('MainController', ['$http', function($http) {
       this.main = false;
     }
 
-
-
-
-    console.log("show:", show);
   }
 
   this.begin = () => {
