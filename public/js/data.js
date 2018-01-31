@@ -1063,6 +1063,143 @@ const bobsBurgers = [
   }
 ]
 
+const mirror = [
+  {
+    season: 1,
+    episodes: [
+      {
+        num: 1,
+        title: "The National Anthem",
+        img: "https://static01.nyt.com/images/2016/10/17/watching/black-mirror-watching/black-mirror-watching-videoSixteenByNineJumbo1600.jpg",
+        link: "https://www.netflix.com/watch/70264857?trackId=13752289&tctx=0%2C0%2C712499f6-4ea6-4879-8e9a-56b4f0642e1b-19813283"
+      },
+      {
+        num: 2,
+        title: "Fifteen Million Merits",
+        img: "https://2.bp.blogspot.com/-DYceMCDKZ-I/WEpNj10cIHI/AAAAAAAAJeI/WJoGzt-zYOYhk2Kghqlu_0IqG90n2qoyQCLcB/s1600/merits.jpg",
+        link: "https://www.netflix.com/watch/70264858?trackId=13752289&tctx=0%2C1%2C712499f6-4ea6-4879-8e9a-56b4f0642e1b-19813283"
+      },
+      {
+        num: 3,
+        title: "The Entire History of You",
+        img: "https://espngrantland.files.wordpress.com/2013/11/grant_channel4_blackmirror103_6403.jpg?w=750",
+        link: "https://www.netflix.com/watch/70264856?trackId=13752289&tctx=0%2C2%2C712499f6-4ea6-4879-8e9a-56b4f0642e1b-19813283"
+      }
+    ]
+  },
+  {
+    season: 2,
+    episodes: [
+      {
+        num: 1,
+        title: "Be Right Back",
+        img: "https://vignette.wikia.nocookie.net/black-mirror/images/2/2a/960_%281%29.jpg/revision/latest?cb=20161101214055",
+        link: "https://www.netflix.com/watch/70279173?trackId=13752289&tctx=0%2C0%2C712499f6-4ea6-4879-8e9a-56b4f0642e1b-19813283"
+      },
+      {
+        num: 2,
+        title: "White Bear",
+        img: "http://cdn-static.denofgeek.com/sites/denofgeek/files/styles/main_wide/public/black-mirror-e2.jpg?itok=UigUeC-b",
+        link: "https://www.netflix.com/watch/70279174?trackId=13752289&tctx=0%2C1%2C712499f6-4ea6-4879-8e9a-56b4f0642e1b-19813283"
+      },
+      {
+        num: 3,
+        title: "The Waldo Moment",
+        img: "http://cdn2us.denofgeek.com/sites/denofgeekus/files/styles/main_wide/public/960_1.jpg?itok=UHLLf2w0",
+        link: "https://www.netflix.com/watch/70279175?trackId=13752289&tctx=0%2C2%2C712499f6-4ea6-4879-8e9a-56b4f0642e1b-19813283"
+      },
+      {
+        num: 4,
+        title: "White Christmas",
+        img: "http://static2.businessinsider.com/image/56818e40dd089536518b4637-1190-625/if-you-love-technology-you-need-to-watch-black-mirror-on-netflix.jpg",
+        link: "https://www.netflix.com/watch/80073158?trackId=13752289&tctx=0%2C3%2C712499f6-4ea6-4879-8e9a-56b4f0642e1b-19813283"
+      }
+    ]
+  },
+  {
+    season: 3,
+    episodes: [
+      {
+        num: 1,
+        title: "Nosedive",
+        img: "http://static1.businessinsider.com/image/5810b24c362ca49e018b4dcc-1790/lacie%203.png",
+        link: "https://www.netflix.com/watch/80104627?trackId=13752289&tctx=0%2C0%2C712499f6-4ea6-4879-8e9a-56b4f0642e1b-19813283"
+      },
+      {
+        num: 2,
+        title: "Playtest",
+        img: "https://www.whats-on-netflix.com/wp-content/uploads/2016/10/playtest-770x433.jpg",
+        link: "https://www.netflix.com/watch/80104630?trackId=13752289&tctx=0%2C1%2C712499f6-4ea6-4879-8e9a-56b4f0642e1b-19813283"
+      },
+      {
+        num: 3,
+        title: "Shut Up and Dance",
+        img: "https://vignette.wikia.nocookie.net/black-mirror/images/c/c4/Blackmirrorshutupanddance.jpg/revision/latest?cb=20171011023338",
+        link: "https://www.netflix.com/watch/80104626?trackId=13752289&tctx=0%2C2%2C712499f6-4ea6-4879-8e9a-56b4f0642e1b-19813283"
+      },
+      {
+        num: 4,
+        title: "San Junipero",
+        img: "https://cdn.theatlantic.com/assets/media/img/mt/2016/10/BlackMirror_EP1_san_junipero_0282r/facebook.jpg?1477081493",
+        link: "https://www.netflix.com/watch/80104625?trackId=13752289&tctx=0%2C3%2C712499f6-4ea6-4879-8e9a-56b4f0642e1b-19813283"
+      },
+      {
+        num: 5,
+        title: "Men Against Fire",
+        img: "https://static.seattletimes.com/wp-content/uploads/2016/12/f6b52700d77e4411a24a0cd3161c952b-780x520.jpg",
+        link: "https://www.netflix.com/watch/80104628?trackId=13752289&tctx=0%2C4%2C712499f6-4ea6-4879-8e9a-56b4f0642e1b-19813283"
+      },
+      {
+        num: 6,
+        title: "Hated in the Nation",
+        img: "https://images-na.ssl-images-amazon.com/images/M/MV5BNjY4NDMxMTIwOF5BMl5BanBnXkFtZTgwODE3MzgzMDI@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+        link: "https://www.netflix.com/watch/80104629?trackId=13752289&tctx=0%2C5%2C712499f6-4ea6-4879-8e9a-56b4f0642e1b-19813283"
+      }
+    ]
+  },
+  {
+    season: 4,
+    episodes: [
+      {
+        num: 1,
+        title: "USS Callister",
+        img: "https://cdn.theatlantic.com/assets/media/img/mt/2017/12/uss_callister/lead_960.jpg?1514563347",
+        link: "https://www.netflix.com/watch/80131567?trackId=13752289&tctx=0%2C0%2C712499f6-4ea6-4879-8e9a-56b4f0642e1b-19813283"
+      },
+      {
+        num: 2,
+        title: "Arkangel",
+        img: "https://www.theedgesusu.co.uk/wp-content/uploads/2018/01/black-mirror-arkangel.png",
+        link: "https://www.netflix.com/watch/80131566?trackId=13752289&tctx=0%2C1%2C712499f6-4ea6-4879-8e9a-56b4f0642e1b-19813283"
+      },
+      {
+        num: 3,
+        title: "Crocodile",
+        img: "https://cdn.flickeringmyth.com/wp-content/uploads/2018/01/Black-Mirror-Crocodile-600x338.jpg",
+        link: "https://www.netflix.com/watch/80131568?trackId=13752289&tctx=0%2C2%2C712499f6-4ea6-4879-8e9a-56b4f0642e1b-19813283"
+      },
+      {
+        num: 4,
+        title: "Hang the DJ",
+        img: "https://cdn.vox-cdn.com/uploads/chorus_asset/file/9979109/BM_S4_HTDJ.jpg",
+        link: "https://www.netflix.com/watch/80131569?trackId=13752289&tctx=0%2C3%2C712499f6-4ea6-4879-8e9a-56b4f0642e1b-19813283"
+      },
+      {
+        num: 5,
+        title: "Metalhead",
+        img: "https://media.vanityfair.com/photos/5a244663c5b1423f50694797/master/pass/black-mirror-metalhead.jpg",
+        link: "https://www.netflix.com/watch/80131570?trackId=13752289&tctx=0%2C4%2C712499f6-4ea6-4879-8e9a-56b4f0642e1b-19813283"
+      },
+      {
+        num: 6,
+        title: "Black Museum",
+        img: "https://cdn.vox-cdn.com/uploads/chorus_asset/file/9970083/BM_S4_BM.jpg",
+        link: "https://www.netflix.com/watch/80131571?trackId=13752289&tctx=0%2C5%2C712499f6-4ea6-4879-8e9a-56b4f0642e1b-19813283"
+      }
+    ]
+  }
+]
+
 // The Office
 const theOffice = [
   {
@@ -1109,42 +1246,42 @@ const theOffice = [
 const lowRange = [
   {
     name: "Taco Bell",
-    image: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg",
+    image: "https://s3-media4.fl.yelpcdn.com/bphoto/f7hrI8x8AE9JXUdiGffL5A/ls.jpg",
     map: "https://www.google.com/maps/search/Taco+Bell"
   },
   {
     name: "McDonald's",
-    image: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg",
+    image: "https://vignette3.wikia.nocookie.net/logopedia/images/1/1e/Plain-mcdonalds-logo.jpg/revision/latest?cb=20161208155014",
     map: "https://www.google.com/maps/search/Mcdonalds"
   },
   {
     name: "Burger King",
-    image: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg",
+    image: "http://hiring.snagajob.com/tms/customerlogo/image/748795",
     map: "https://www.google.com/maps/search/burger+king"
   },
   {
     name: "Hardee's",
-    image: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg",
+    image: "http://www.composium.krautcoding.com/wp-content/uploads/2016/11/Logo_Hardees.jpg?c71394",
     map: "https://www.google.com/maps/search/hardee"
   },
   {
     name: "Sonic",
-    image: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg",
+    image: "https://www.sonicdrivein.com/static/img/common/sonic-app-icon.gif",
     map: "https://www.google.com/maps/search/sonic"
   },
   {
     name: "Arby's",
-    image: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg",
+    image: "https://www.underconsideration.com/brandnew/archives/arbys_redux_logo_detail.png",
     map: "https://www.google.com/maps/search/arbys"
   },
   {
     name: "Wendy's",
-    image: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg",
+    image: "https://qzprod.files.wordpress.com/2013/07/new-wendys-logo.jpg?quality=80&strip=all&w=750",
     map: "https://www.google.com/maps/search/wendys"
   },
   {
     name: "Little Caesar's",
-    image: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg",
+    image: "https://www.underconsideration.com/brandnew/archives/little_caesars_character.png",
     map: "https://www.google.com/maps/search/little+caesars"
   }
 ];

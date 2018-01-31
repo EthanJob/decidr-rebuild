@@ -29,6 +29,10 @@ app.controller('MainController', ['$http', function($http) {
   this.restMap = null;
   // RANDOM RESTAURANT DATA <
 
+  this.comingSoon = () => {
+    alert("Coming soon!");
+  }
+
   // FUNCTIONALITY >
   this.activeShow = (show) => {
 
@@ -39,6 +43,12 @@ app.controller('MainController', ['$http', function($http) {
       this.active = true;
       this.showData = (rickAndMorty);
       this.showName = "Rick and Morty";
+      console.log("show:", this.showData);
+    } else if (show === 'mirror') {
+      this.main = false;
+      this.active = true;
+      this.showData = (mirror);
+      this.showName = "Black Mirror";
       console.log("show:", this.showData);
     } else if (show === 'bob') {
       this.main = false;
@@ -150,7 +160,6 @@ app.controller('MainController', ['$http', function($http) {
       method: 'GET'
     }).then(response => {
       this.suggestions = response.data;
-      console.log("suggestions:", this.suggestions);
     }, error => {
       console.error(error.message);
     }).catch(err => console.error('catch:', err));

@@ -52,7 +52,11 @@
           <img class="icon" id="bob" src="images/burger-icon.jpg" alt="Bob's Burgers icon">
           <h4>Bob's Burgers</h4>
         </div>
-        <div class="showIcon" ng-click="ctrl.activeShow('office')">
+        <div class="showIcon" ng-click="ctrl.activeShow('mirror')">
+          <img class="icon" id="bob" src="images/black-mirror.jpg" alt="Black Mirror icon">
+          <h4>Black Mirror</h4>
+        </div>
+        <div class="showIcon" ng-click="ctrl.comingSoon()">
           <img class="icon" id="office" src="images/office-logo-2.jpg" alt="The Office icon">
           <h4>The Office</h4>
         </div>
@@ -79,7 +83,7 @@
           <h4>Select a price range</h4>
         </div>
       </div>
-      <div class="shows">
+      <div class="priceButtons">
         <div ng-click="ctrl.activeRest('low')" class="price">
           $
         </div>
@@ -95,7 +99,7 @@
       </div>
       <div class="results" ng-if="ctrl.appear === true">
         <h3>{{ ctrl.restName }}</h3>
-        <img class="picture" src="{{ctrl.restImage}}" alt="image unavailable">
+        <img class="picture restImage" src="{{ctrl.restImage}}" alt="image unavailable">
         <a href="{{ctrl.restMap}}" target="_blank"><h3>Find the nearest {{ctrl.restName}}</h3></a>
       </div>
     </div>
