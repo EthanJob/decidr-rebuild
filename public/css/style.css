@@ -60,6 +60,7 @@ body {
   margin: 0 10px 0 10px;
   font-size: 20px;
   transition-duration: .5s;
+  width: 50px;
 }
 
 .icon {
@@ -267,4 +268,15 @@ footer {
   background-color: black;
   font-size: 20px;
   overflow: hidden;
+}
+
+.priceButtons {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.restImage {
+  height: 200px;
+  width: 200px;
 }
