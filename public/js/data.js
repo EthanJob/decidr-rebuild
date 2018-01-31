@@ -211,80 +211,80 @@ const bobsBurgers = [
       {
         num: 1,
         title: "Human Flesh",
-        img: "",
-        link: ""
+        img: "http://cdn.hitfix.com/photos/601138/bobs-burgers-human-flesh_featured_photo_gallery.jpg",
+        link: "https://www.hulu.com/watch/205422"
       },
       {
         num: 2,
         title: "Crawl Space",
-        img: "",
-        link: ""
+        img: "https://vignette3.wikia.nocookie.net/bobsburgerpedia/images/6/64/1ASA02_Sh023_tk02_0148.jpg/revision/latest?cb=20120326215254",
+        link: "https://www.hulu.com/watch/207113"
       },
       {
         num: 3,
         title: "Sacred Cow",
-        img: "",
-        link: ""
+        img: "http://s1.storage.akamai.coub.com/get/b100/p/coub/simple/cw_timeline_pic/26bf4ebac6e/1f9cb65b3d4db5ea0975c/big_1472077466_image.jpg",
+        link: "https://www.hulu.com/watch/207921"
       },
       {
         num: 4,
         title: "Sexy Dance Fighting",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/7/7b/1ASA06_Sh098_tk01_0241.jpg/revision/latest?cb=20120326214419",
+        link: "https://www.hulu.com/watch/210947"
       },
       {
         num: 5,
         title: "Hamburger Dinner Theater",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/8/84/1asa05_sh163_tk02_0007.JPG/revision/latest?cb=20120326214722",
+        link: "https://www.hulu.com/watch/215573"
       },
       {
         num: 6,
         title: "Sheesh! Cab, Bob?",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/7/7f/1asa09_sh107_tk02_0281f.jpg/revision/latest?cb=20120326213943",
+        link: "https://www.hulu.com/watch/218182"
       },
       {
         num: 7,
         title: "Bed & Breakfast",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/7/72/1ASA08_Sh051_tk01_0032.jpg/revision/latest?cb=20120326212650",
+        link: "https://www.hulu.com/watch/219843"
       },
       {
         num: 8,
         title: "Art Crawl",
-        img: "",
-        link: ""
+        img: "https://pbs.twimg.com/media/B5RLu76IMAAmNkc.png",
+        link: "https://www.hulu.com/watch/225292"
       },
       {
         num: 9,
         title: "Spaghetti Western and Meatballs",
-        img: "",
-        link: ""
+        img: "https://i.ytimg.com/vi/woxPVQIszhY/maxresdefault.jpg",
+        link: "https://www.hulu.com/watch/225439"
       },
       {
         num: 10,
         title: "Burger Wars",
-        img: "",
-        link: ""
+        img: "https://www.tvequals.com/wp-content/uploads/2011/03/BOB%E2%80%99S-BURGERS-Burger-Wars-Episode-10-6.jpg",
+        link: "https://www.hulu.com/watch/227630"
       },
       {
         num: 11,
         title: "Weekend at Mort's",
-        img: "",
-        link: ""
+        img: "https://images.tbs.com/tbs/w_1024/https%3A%2F%2Fi.cdn.tbs.com%2Fassets%2Fimages%2F2017%2F04%2Fbobs-burgers-s01ep11-weekend-at-morts-1600x900-1600x900_091320160507.jpg",
+        link: "https://www.hulu.com/watch/237565"
       },
       {
         num: 12,
         title: "Lobsterfest",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/9/9c/Lobsterfest.jpg/revision/latest?cb=20110516210626",
+        link: "https://www.hulu.com/watch/237553"
       },
       {
         num: 13,
         title: "Torpedo",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/2/27/1ASA12_Sh072_tk01_bento0048.jpg/revision/latest?cb=20120312181353",
+        link: "https://www.hulu.com/watch/240025"
       }
     ]
   },
@@ -294,56 +294,56 @@ const bobsBurgers = [
       {
         num: 1,
         title: "The Belchies",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/2/27/2ASA01_Sq08_Sh02-0078.jpg/revision/latest?cb=20120223012952",
+        link: "https://www.hulu.com/watch/338503"
       },
       {
         num: 2,
         title: "Bob Day Afternoon",
-        img: "",
-        link: ""
+        img: "https://i.ytimg.com/vi/kNdFeBZcbGo/maxresdefault.jpg",
+        link: "https://www.hulu.com/watch/341146"
       },
       {
         num: 3,
         title: "Synchronized Swimming",
-        img: "",
-        link: ""
+        img: "https://www.tvequals.com/wp-content/uploads/2012/03/Bobs-Burgers-Synchronized-Swimming-Season-2-Episode-3-4.jpg",
+        link: "https://www.hulu.com/watch/343666"
       },
       {
         num: 4,
         title: "Burgerboss",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/b/be/22_24.jpg/revision/latest?cb=20120313002010",
+        link: "https://www.hulu.com/watch/346241"
       },
       {
         num: 5,
         title: "Food Truckin'",
-        img: "",
-        link: ""
+        img: "https://i.ytimg.com/vi/x7d7Tlj2vvM/maxresdefault.jpg",
+        link: "https://www.hulu.com/watch/350702"
       },
       {
         num: 6,
         title: "Dr. Yap",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/4/49/2ASA07_Sq04_09_tk2-0076.jpg/revision/latest?cb=20120413000936",
+        link: "https://www.hulu.com/watch/355717"
       },
       {
         num: 7,
         title: "Moody Foodie",
-        img: "",
-        link: ""
+        img: "https://pbs.twimg.com/media/Cmsg0T-WAAAWlnt.jpg",
+        link: "https://www.hulu.com/watch/358371"
       },
       {
         num: 8,
         title: "Bad Tina",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/4/49/210_04_05-0121.jpg/revision/latest?cb=20120425215215",
+        link: "https://www.hulu.com/watch/360945"
       },
       {
         num: 9,
         title: "Beefsquatch",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/2/21/209_14_07-0052.jpg/revision/latest?cb=20120502013004",
+        link: "https://www.hulu.com/watch/363346"
       }
     ]
   },
@@ -353,140 +353,140 @@ const bobsBurgers = [
       {
         num: 1,
         title: "Ear-sy Rider",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/e/e6/Bobs-Burgers-Season-3-Premiere-Ear-sy-Rider-2.jpg/revision/latest?cb=20121212131141",
+        link: "https://www.hulu.com/watch/406990"
       },
       {
         num: 2,
         title: "Full Bars",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/a/a0/217_12_07_tk2-0145.jpg/revision/latest?cb=20120927144529",
+        link: "https://www.hulu.com/watch/409947"
       },
       {
         num: 3,
         title: "Bob Fires the Kids",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/8/8a/212_14_10_tk4-0172.jpg/revision/latest?cb=20120929141809",
+        link: "https://www.hulu.com/watch/420411"
       },
       {
         num: 4,
         title: "Mutiny on the Windbreaker",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/4/45/208_14_02_tk6-0461.jpg/revision/latest?cb=20121020045232",
+        link: "https://www.hulu.com/watch/423710"
       },
       {
         num: 5,
         title: "An Indecent Thanksgiving Proposal",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/c/c8/21_15c_33_tk3-0058.jpg/revision/latest?cb=20121030211802",
+        link: "https://www.hulu.com/watch/426323"
       },
       {
         num: 6,
         title: "The Deepening",
-        img: "",
-        link: ""
+        img: "https://i.ytimg.com/vi/TdaVrwHnZOc/maxresdefault.jpg",
+        link: "https://www.hulu.com/watch/428288"
       },
       {
         num: 7,
         title: "Tina-Rannosaurus Wrecks",
-        img: "",
-        link: ""
+        img: "http://static.tvtome.com/images/genie_images/story/2012_usa/b/bobs_insurance_restaurant.jpg",
+        link: "https://www.hulu.com/watch/431078"
       },
       {
         num: 8,
         title: "The Unbearable Like-Likeness of Gene",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/1/10/216_10_06_tk1-0086.jpg/revision/latest?cb=20121120050730",
+        link: "https://www.hulu.com/watch/433323"
       },
       {
         num: 9,
-        title: "God Rest Ye Merry Gentle-Mannequins",
-        img: "",
-        link: ""
+        title: "Bob Rest Ye Merry Gentle-Mannequins",
+        img: "http://static.tvtome.com/images/genie_images/story/2012_usa/b/bobs_s3xmas/chetrestaurant.jpg",
+        link: "https://www.hulu.com/watch/433854"
       },
       {
         num: 10,
         title: "Mother Daughter Laser Razor",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/b/be/215_16_02.jpg/revision/latest?cb=20121218021735",
+        link: "https://www.hulu.com/watch/442122"
       },
       {
         num: 11,
         title: "Nude Beach",
-        img: "",
-        link: ""
+        img: "https://ibhuluimcom-a.akamaihd.net/ib.huluim.com/video/60167201?region=US&size=952x536",
+        link: "https://www.hulu.com/watch/443943"
       },
       {
         num: 12,
         title: "Broadcast Wagstaff School News",
-        img: "",
-        link: ""
+        img: "https://i.ytimg.com/vi/3mILARKuqbs/maxresdefault.jpg",
+        link: "https://www.hulu.com/watch/450027"
       },
       {
         num: 13,
         title: "My Fuzzy Valentine",
-        img: "",
-        link: ""
+        img: "http://theyoungfolks.com/wp-content/uploads/2015/06/my-fuzzy-valentine.jpg",
+        link: "https://www.hulu.com/watch/455123"
       },
       {
         num: 14,
         title: "Lindapendent Woman",
-        img: "",
-        link: ""
+        img: "https://i.ytimg.com/vi/3J97iNNZjZ0/maxresdefault.jpg",
+        link: "https://www.hulu.com/watch/456623"
       },
       {
         num: 15,
         title: "O.T.: The Outside Toilet",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/a/aa/302_09_10_tk3-0268.JPG/revision/latest?cb=20130214040806",
+        link: "https://www.hulu.com/watch/462781"
       },
       {
         num: 16,
         title: "Topsy",
-        img: "",
-        link: ""
+        img: "http://theyoungfolks.com/wp-content/uploads/2015/06/topsy.jpg",
+        link: "https://www.hulu.com/watch/465317"
       },
       {
         num: 17,
         title: "Two for Tina",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/7/72/304_14_06_tk2-0102.jpg/revision/latest/scale-to-width-down/2000?cb=20130226215346",
+        link: "https://www.hulu.com/watch/468322"
       },
       {
         num: 18,
         title: "It Snakes a Village",
-        img: "",
-        link: ""
+        img: "https://laurendem.files.wordpress.com/2014/01/bobs-burgers-it-snakes-a-village-tina-gene-and-louise-find-bitsys-tutu-2400px.jpg",
+        link: "https://www.hulu.com/watch/470575"
       },
       {
         num: 19,
         title: "Family Fracas",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/2/2d/306_15B_02_tk1-0023.jpg/revision/latest?cb=20130325221658",
+        link: "https://www.hulu.com/watch/478694"
       },
       {
         num: 20,
         title: "The Kids Run the Restaurant",
-        img: "",
-        link: ""
+        img: "https://s-media-cache-ak0.pinimg.com/originals/15/46/da/1546da5e6170e1cd48c2d913f8d8fd35.jpg",
+        link: "https://www.hulu.com/watch/481411"
       },
       {
         num: 21,
         title: "Boyz 4 Now",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/a/ae/Boyz4now-4.png/revision/latest?cb=20150810140505",
+        link: "https://www.hulu.com/watch/483867"
       },
       {
         num: 22,
         title: "Carpe Museum",
-        img: "",
-        link: ""
+        img: "https://www.tvequals.com/wp-content/uploads/2013/05/Bobs-Burgers-Season-3-Episode-22-Carpe-Museum-2.jpg",
+        link: "https://www.hulu.com/watch/486580"
       },
       {
         num: 23,
         title: "The Unnatural",
-        img: "",
-        link: ""
+        img: "https://www.tvequals.com/wp-content/uploads/2013/05/Bobs-Burgers-Season-3-Finale-2013-The-Unnatural-6.jpg",
+        link: "https://www.hulu.com/watch/489169"
       }
     ]
   },
@@ -496,134 +496,134 @@ const bobsBurgers = [
       {
         num: 1,
         title: "A River Runs Through Bob",
-        img: "",
-        link: ""
+        img: "https://pbs.twimg.com/media/Bl2hkfUCEAAVo0k.jpg",
+        link: "https://www.hulu.com/watch/539043"
       },
       {
         num: 2,
         title: "Fort Night",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/9/97/313_14A_02_tk1-0017.JPG/revision/latest/scale-to-width-down/2000?cb=20130922051212",
+        link: "https://www.hulu.com/watch/540284"
       },
       {
         num: 3,
         title: "Seaplane!",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/9/9a/314_04_06_tk2-0068.jpg/revision/latest?cb=20131018123130",
+        link: "https://www.hulu.com/watch/553223"
       },
       {
         num: 4,
         title: "My Big Fat Greek Bob",
-        img: "",
-        link: ""
+        img: "https://cdn.pastemagazine.com/www/articles/Bobs-burgersS4Ep04.jpg",
+        link: "https://www.hulu.com/watch/556180"
       },
       {
         num: 5,
         title: "Turkey in a Can",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/2/2f/316_15B_21_tk2-0155.jpg/revision/latest?cb=20131107223550",
+        link: "https://www.hulu.com/watch/563284"
       },
       {
         num: 6,
         title: "Purple Rain-Union",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/b/bb/315_01A_06_tk2-0006.jpg/revision/latest/scale-to-width-down/2000?cb=20131115024541",
+        link: "https://www.hulu.com/watch/565748"
       },
       {
         num: 7,
         title: "Bob and Deliver",
-        img: "",
-        link: ""
+        img: "https://i2.wp.com/www.bubbleblabber.com/wp-content/uploads/2013/12/bobandeliver.jpg",
+        link: "https://www.hulu.com/watch/568279"
       },
       {
         num: 8,
         title: "Christmas in the Car",
-        img: "",
-        link: ""
+        img: "https://4.bp.blogspot.com/-n6S-6B3I6pQ/WjnEUzhnvsI/AAAAAAAAHCk/u9cujEmkZ0844vBPC8iwb3yT6YkHpRmyACLcBGAs/s1600/bobs-burgers-christmas-in-the-car.jpg",
+        link: "https://www.hulu.com/watch/572604"
       },
       {
         num: 9,
         title: "Slumber Party",
-        img: "",
-        link: ""
+        img: "https://i.ytimg.com/vi/D0smKoUjIEs/maxresdefault.jpg",
+        link: "https://www.hulu.com/watch/576799"
       },
       {
         num: 10,
         title: "Presto Tina-o",
-        img: "",
-        link: ""
+        img: "http://theyoungfolks.com/wp-content/uploads/2015/06/presto-tina-o.jpg",
+        link: "https://www.hulu.com/watch/581505"
       },
       {
         num: 11,
         title: "Easy Com-mercial, Easy Go-mercial",
-        img: "",
-        link: ""
+        img: "https://images.moviepilot.com/image/upload/c_fill,h_630,q_auto:best,w_1200/bobs-burgers-season-4-easy-com-mercial-easy-go-mercial-3-700x390-bobs-burgers-easy-com-mercial-easy-go-mmercial-png-23672.jpg",
+        link: "https://www.hulu.com/watch/588263"
       },
       {
         num: 12,
         title: "The Frond Files",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/9/95/404_15D_08_tk1-0004.jpg/revision/latest/scale-to-width-down/2000?cb=20140218232758",
+        link: "https://www.hulu.com/watch/605725"
       },
       {
         num: 13,
         title: "Mazel-Tina",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/8/8f/403_07C_01_tk1-0082.jpg/revision/latest/scale-to-width-down/2000?cb=20140225151856",
+        link: "https://www.hulu.com/watch/607725"
       },
       {
         num: 14,
         title: "Uncle Teddy",
-        img: "",
-        link: ""
+        img: "https://i.ytimg.com/vi/0R7-yGP_Mvk/maxresdefault.jpg",
+        link: "https://www.hulu.com/watch/611349"
       },
       {
         num: 15,
         title: "The Kids Rob a Train",
-        img: "",
-        link: ""
+        img: "http://www.heavemedia.com/wp-content/uploads/2014/04/bob.png",
+        link: "https://www.hulu.com/watch/613748"
       },
       {
         num: 16,
         title: "I Get Psy-chic Out of You",
-        img: "",
-        link: ""
+        img: "https://s-media-cache-ak0.pinimg.com/originals/e3/7f/87/e37f879b852e1e55cf94f6a4f26513b6.jpg",
+        link: "https://www.hulu.com/watch/616098"
       },
       {
         num: 17,
         title: "The Equestranauts",
-        img: "",
-        link: ""
+        img: "https://s-media-cache-ak0.pinimg.com/originals/0a/28/cc/0a28cca2b223d32840e24310da283ff6.jpg",
+        link: "https://www.hulu.com/watch/621625"
       },
       {
         num: 18,
         title: "Ambergris",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/4/4f/Ambergris.png/revision/latest?cb=20140402134553",
+        link: "https://www.hulu.com/watch/624150"
       },
       {
         num: 19,
         title: "The Kids Run Away",
-        img: "",
-        link: ""
+        img: "https://i.ytimg.com/vi/36BwD_UwmE0/maxresdefault.jpg",
+        link: "https://www.hulu.com/watch/627628"
       },
       {
         num: 20,
         title: "Gene It On",
-        img: "",
-        link: ""
+        img: "http://theyoungfolks.com/wp-content/uploads/2015/06/gene-it-on.jpg",
+        link: "https://www.hulu.com/watch/630779"
       },
       {
         num: 21,
         title: "Wharf Horse (or How Bob Saves/Destroys the Town – Part I)",
-        img: "",
-        link: ""
+        img: "https://s-media-cache-ak0.pinimg.com/originals/19/12/3e/19123e148cdb26859149047b3ae2f858.jpg",
+        link: "https://www.hulu.com/watch/634518"
       },
       {
         num: 22,
         title: "World Wharf II: The Wharfening (or How Bob Saves/Destroys the Town – Part II)",
-        img: "",
-        link: ""
+        img: "https://s-media-cache-ak0.pinimg.com/originals/19/12/3e/19123e148cdb26859149047b3ae2f858.jpg",
+        link: "https://www.hulu.com/watch/637455"
       }
     ]
   },
