@@ -633,128 +633,128 @@ const bobsBurgers = [
       {
         num: 1,
         title: "Work Hard or Die Trying, Girl",
-        img: "",
-        link: ""
+        img: "https://www.myentertainmentworld.ca/site/wp-content/uploads/2014/10/Bobs-Burgers-_Work-Hard-or-Die-Trying-Girl_.jpg",
+        link: "https://www.hulu.com/watch/694937"
       },
       {
         num: 2,
         title: "Tina and the Real Ghost",
-        img: "",
-        link: ""
+        img: "http://www.hardwoodandhollywood.com/pop-culture-spin/wp-content/uploads/sites/7/2015/10/413_07A_02_tk1-0067_hires2.jpg",
+        link: "https://www.hulu.com/watch/707094"
       },
       {
         num: 3,
         title: "Friends with Burger-fits",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/2/21/411_08_13_tk2-0017_hires2.jpg/revision/latest?cb=20141112114056",
+        link: "https://www.hulu.com/watch/713610"
       },
       {
         num: 4,
         title: "Dawn of the Peck",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/6/6a/416_25B_10_tk2-0146_hires2.jpg/revision/latest?cb=20141107005900",
+        link: "https://www.hulu.com/watch/717613"
       },
       {
         num: 5,
         title: "Best Burger",
-        img: "",
-        link: ""
+        img: "https://i.ytimg.com/vi/45uQoqzrhuo/maxresdefault.jpg",
+        link: "https://www.hulu.com/watch/719151"
       },
       {
         num: 6,
         title: "Father of the Bob",
-        img: "",
-        link: ""
+        img: "http://nextprojection.com/wp-content/uploads/2014/12/BB-Father.jpg",
+        link: "https://www.hulu.com/watch/723350"
       },
       {
         num: 7,
         title: "Tina Tailor Soldier Spy",
-        img: "",
-        link: ""
+        img: "http://i.imgur.com/uZmiILB.jpg",
+        link: "https://www.hulu.com/watch/725063"
       },
       {
         num: 8,
         title: "Midday Run",
-        img: "",
-        link: ""
+        img: "https://i.ytimg.com/vi/LzEHNI7EgsY/maxresdefault.jpg",
+        link: "https://www.hulu.com/watch/733014"
       },
       {
         num: 9,
         title: "Speakeasy Rider",
-        img: "",
-        link: ""
+        img: "https://i1.wp.com/www.bubbleblabber.com/wp-content/uploads/2015/01/Speakeasy-Rider.jpg",
+        link: "https://www.hulu.com/watch/735990"
       },
       {
         num: 10,
         title: "Late Afternoon in the Garden of Bob and Louise",
-        img: "",
-        link: ""
+        img: "https://i.ytimg.com/vi/aCDHwQ2mds4/maxresdefault.jpg",
+        link: "https://www.hulu.com/watch/741668"
       },
       {
         num: 11,
         title: "Can't Buy Me Math",
-        img: "",
-        link: ""
+        img: "http://nextprojection.com/wp-content/uploads/2015/02/Bobs-Math.jpg",
+        link: "https://www.hulu.com/watch/747825"
       },
       {
         num: 12,
         title: "The Millie-churian Candidate",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/1/19/421_32A_24_tk1-0071_hires2.jpg/revision/latest?cb=20150129232049",
+        link: "https://www.hulu.com/watch/751512"
       },
       {
         num: 13,
         title: "The Gayle Tales",
-        img: "",
-        link: ""
+        img: "http://theyoungfolks.com/wp-content/uploads/2015/03/gayle-tales.jpg",
+        link: "https://www.hulu.com/watch/757692"
       },
       {
         num: 14,
         title: "L'il Hard Dad",
-        img: "",
-        link: ""
+        img: "https://images-na.ssl-images-amazon.com/images/M/MV5BYjNhYTQxMWItMDAwNS00Yzc4LWE2MGYtNjc0MDQ1YWJiZGE5L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
+        link: "https://www.hulu.com/watch/761729"
       },
       {
         num: 15,
         title: "Adventures in Chinchilla-sitting",
-        img: "",
-        link: ""
+        img: "http://nextprojection.com/wp-content/uploads/2015/03/BB-Chinchilla.jpg",
+        link: "https://www.hulu.com/watch/764634"
       },
       {
         num: 16,
         title: "The Runway Club",
-        img: "",
-        link: ""
+        img: "https://i.ytimg.com/vi/JN9ZgCayawc/maxresdefault.jpg",
+        link: "https://www.hulu.com/watch/767644"
       },
       {
         num: 17,
         title: "Itty Bitty Ditty Committee",
-        img: "",
-        link: ""
+        img: "https://images.tbs.com/tbs/w_1024/https%3A%2F%2Fi.cdn.tbs.com%2Fassets%2Fimages%2F2017%2F04%2Fbobs-burgers-s05ep17-itty-bitty-ditty-committee-1600x900-1600x900_010220170356.jpg",
+        link: "https://www.hulu.com/watch/783916"
       },
       {
         num: 18,
         title: "Eat, Spray, Linda",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/6/66/506_21_02_tk1-0011_hires2.jpg/revision/latest/scale-to-width-down/2000?cb=20150425133519",
+        link: "https://www.hulu.com/watch/785681"
       },
       {
         num: 19,
         title: "Housetrap",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/4/4d/507_02_21_tk2-0117_hires2.jpg/revision/latest?cb=20150504002123",
+        link: "https://www.hulu.com/watch/789579"
       },
       {
         num: 20,
         title: "Hawk & Chick",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/0/0f/509_25_04_tk1-0057_hires2.jpg/revision/latest/scale-to-width-down/2000?cb=20150507185819",
+        link: "https://www.hulu.com/watch/792582"
       },
       {
         num: 21,
         title: "The Oeder Games",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/a/a6/508_27B_20_tk1-0407_hires2.jpg/revision/latest?cb=20150507185817",
+        link: "https://www.hulu.com/watch/792573"
       }
     ]
   },
@@ -764,116 +764,116 @@ const bobsBurgers = [
       {
         num: 1,
         title: "Sliding Bobs",
-        img: "",
-        link: ""
+        img: "http://insidepulse.com/wp-content/uploads/2015/10/bsbs_Sliding_Bobs_5ASA10-510_42A_06_tk1-0001_hires1.jpg",
+        link: "https://www.hulu.com/watch/847976"
       },
       {
         num: 2,
         title: "The Land Ship",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/a/a5/511_07_03_tk3-0005_hires2.jpg/revision/latest/scale-to-width-down/2000?cb=20150923113054",
+        link: "https://www.hulu.com/watch/855643"
       },
       {
         num: 3,
         title: "The Hauntening",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/9/9c/513_06_08_tk2-0093_hires2.jpg/revision/latest?cb=20151014005428",
+        link: "https://www.hulu.com/watch/858809"
       },
       {
         num: 4,
         title: "Gayle Makin' Bob Sled",
-        img: "",
-        link: ""
+        img: "http://nextprojection.com/wp-content/uploads/2015/11/BB-Sled.jpg",
+        link: "https://www.hulu.com/watch/867767"
       },
       {
         num: 5,
         title: "Nice-Capades",
-        img: "",
-        link: ""
+        img: "http://nextprojection.com/wp-content/uploads/2015/11/BB-Nice.jpg",
+        link: "https://www.hulu.com/watch/871284"
       },
       {
         num: 6,
         title: "The Cook, the Steve, the Gayle, & Her Lover",
-        img: "",
-        link: ""
+        img: "https://i.ytimg.com/vi/gmoJO3XMx5Q/maxresdefault.jpg",
+        link: "https://www.hulu.com/watch/893111"
       },
       {
         num: 7,
         title: "The Gene and Courtney Show",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/8/80/Gene_and_Courtney.jpg/revision/latest?cb=20160209213347",
+        link: "https://www.hulu.com/watch/905353"
       },
       {
         num: 8,
         title: "Sexy Dance Healing",
-        img: "",
-        link: ""
+        img: "https://images.tbs.com/tbs/w_1024/https%3A%2F%2Fi.cdn.tbs.com%2Fassets%2Fimages%2F2017%2F04%2FBobs-Burgers-s06ep08-Sexy-Dance-Healing-1600x900.jpg",
+        link: "https://www.hulu.com/watch/908087"
       },
       {
         num: 9,
         title: "Sacred Couch",
-        img: "",
-        link: ""
+        img: "https://i.ytimg.com/vi/xfpFoPc6b9k/maxresdefault.jpg",
+        link: "https://www.hulu.com/watch/913032"
       },
       {
         num: 10,
         title: "Lice Things Are Lice",
-        img: "",
-        link: ""
+        img: "https://i.ytimg.com/vi/MlLact9yiRw/maxresdefault.jpg",
+        link: "https://www.hulu.com/watch/916288"
       },
       {
         num: 11,
         title: "House of 1000 Bounces",
-        img: "",
-        link: ""
+        img: "https://i.ytimg.com/vi/-fJ5lLX0Hy4/maxresdefault.jpg",
+        link: "https://www.hulu.com/watch/925295"
       },
       {
         num: 12,
         title: "Stand by Gene",
-        img: "",
-        link: ""
+        img: "https://images-na.ssl-images-amazon.com/images/M/MV5BOGMwMTUzNTAtNjgzNS00M2IzLTg5MzAtZGY3YzNkMzYyNTkwL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNzA0NzgyNjg@._V1_.jpg",
+        link: "https://www.hulu.com/watch/925296"
       },
       {
         num: 13,
         title: "Wag the Hog",
-        img: "",
-        link: ""
+        img: "http://yahoo201027.weebly.com/uploads/2/0/1/8/20186193/1214965_orig.png",
+        link: "https://www.hulu.com/watch/927965"
       },
       {
         num: 14,
         title: "The Hormone-iums",
-        img: "",
-        link: ""
+        img: "http://www.theandrewblog.net/wp-content/uploads/2016/04/hmi1.jpg",
+        link: "https://www.hulu.com/watch/930918"
       },
       {
         num: 15,
         title: "Pro Tiki/Con Tiki",
-        img: "",
-        link: ""
+        img: "https://i.ytimg.com/vi/1jIzRhd2-XI/maxresdefault.jpg",
+        link: "https://www.hulu.com/watch/933653"
       },
       {
         num: 16,
         title: "Bye Bye Boo Boo",
-        img: "",
-        link: ""
+        img: "http://i.imgur.com/2MRy8qh.jpg",
+        link: "https://www.hulu.com/watch/939438"
       },
       {
         num: 17,
         title: "The Horse Rider-er",
-        img: "",
-        link: ""
+        img: "http://www.hardwoodandhollywood.com/wp-content/uploads/2016/12/bobs-burgers-the-horse-rider-er.jpg",
+        link: "https://www.hulu.com/watch/941840"
       },
       {
         num: 18,
         title: "Secret Admiral-irer",
-        img: "",
-        link: ""
+        img: "http://static.tvmaze.com/uploads/images/original_untouched/59/147733.jpg",
+        link: "https://www.hulu.com/watch/944331"
       },
       {
         num: 19,
         title: "Glued, Where's My Bob?",
-        img: "",
-        link: ""
+        img: "https://i.ytimg.com/vi/2ZYS_9RCL8U/maxresdefault.jpg",
+        link: "https://www.hulu.com/watch/944478"
       }
     ]
   },
@@ -883,134 +883,134 @@ const bobsBurgers = [
       {
         num: 1,
         title: "Flu-ouise",
-        img: "",
-        link: ""
+        img: "http://yahoo201027.weebly.com/uploads/2/0/1/8/20186193/s7e1-louise-getting-mad_orig.png",
+        link: "https://www.hulu.com/watch/986302"
       },
       {
         num: 2,
         title: "Sea Me Now",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/d/d2/BobsBurgers_607_SeaMeNow_05_01_f_hires2.jpg/revision/latest?cb=20160929185701",
+        link: "https://www.hulu.com/watch/991926"
       },
       {
         num: 3,
         title: "Teen-a Witch",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/2/23/S6_613_Bobs_Teen-A-Witch_19_14_hires2.jpg/revision/latest?cb=20161021205832",
+        link: "https://www.hulu.com/watch/997201"
       },
       {
         num: 4,
         title: "They Serve Horses, Don't They?",
-        img: "",
-        link: ""
+        img: "http://images.radiotimes.com/remote/images.atlas.metabroadcast.com/pressassociation.com/webANXbobburgers7e4.jpg?quality=60&mode=crop&width=700&height=422",
+        link: "https://www.hulu.com/watch/1001944"
       },
       {
         num: 5,
         title: "Large Brother, Where Fart Thou?",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/c/c6/BobsBurgers_610_LargeBrother_WhereFartThou_25_02_tk2-0280_hires2.jpg/revision/latest?cb=20161107230725",
+        link: "https://www.hulu.com/watch/1007328"
       },
       {
         num: 6,
         title: "The Quirkducers",
-        img: "",
-        link: ""
+        img: "https://tribzap2it.files.wordpress.com/2016/11/bobs-burgers-quirkducers-1.jpg?w=1100",
+        link: "https://www.hulu.com/watch/1007327"
       },
       {
         num: 7,
         title: "The Last Gingerbread House on the Left",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/d/da/BobsBurgers_618_TheLastGingerbreadHouseOnTheLeft_19_01_tk1-0209_hires2.jpg/revision/latest?cb=20161121193016",
+        link: "https://www.hulu.com/watch/1009205"
       },
       {
         num: 8,
         title: "Ex Mach Tina",
-        img: "",
-        link: ""
+        img: "http://www.nerdspan.com/wp-content/uploads/2017/01/BobsBurgers_609_ExMachTina_15_01_hires1.jpg",
+        link: "https://www.hulu.com/watch/1022366"
       },
       {
         num: 9,
         title: "Bob Actually",
-        img: "",
-        link: ""
+        img: "http://www.nerdhq.com/wp-content/uploads/2017/02/bob-1.png",
+        link: "https://www.hulu.com/watch/1034379"
       },
       {
         num: 10,
         title: "There's No Business Like Mr. Business Business",
-        img: "",
-        link: ""
+        img: "https://i.ytimg.com/vi/uaJxbVRBmmw/maxresdefault.jpg",
+        link: "https://www.hulu.com/watch/1037222"
       },
       {
         num: 11,
         title: "A Few 'Gurt Men",
-        img: "",
-        link: ""
+        img: "https://i.ytimg.com/vi/qQvCSd7k2Q0/maxresdefault.jpg",
+        link: "https://www.hulu.com/watch/1042808"
       },
       {
         num: 12,
         title: "Like Gene for Chocolate",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/a/a2/BobsBurgers_612_LikeGeneForChocolate_02_04_tk3-0219_hires2.jpg/revision/latest?cb=20170302183222",
+        link: "https://www.hulu.com/watch/1045203"
       },
       {
         num: 13,
         title: "The Grand Mama-Pest Hotel",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/c/cd/BobsBurgers_614_GrandMamaPestHotel_09_02_tk3-0027_hires2.jpg/revision/latest?cb=20170315171510",
+        link: "https://www.hulu.com/watch/1047719"
       },
       {
         num: 14,
         title: "Aquaticism",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/6/69/BobsBurgers_617_Aquaticism_07_13_hires2.jpg/revision/latest?cb=20170322233004",
+        link: "https://www.hulu.com/watch/1053122"
       },
       {
         num: 15,
         title: "Ain't Miss Debatin'",
-        img: "",
-        link: ""
+        img: "https://hiddenremote.com/wp-content/blogs.dir/280/files/2017/03/BobsBurgers_620_Ain_tMissDebatin_19A_S03_tk3_14_hires2.jpg",
+        link: "https://www.hulu.com/watch/1053123"
       },
       {
         num: 16,
         title: "Eggs for Days",
-        img: "",
-        link: ""
+        img: "http://www.indiewire.com/wp-content/uploads/2017/03/bobsburgers_621_eggsfordays_02b_s03_tk2_12_hires2.jpg",
+        link: "https://www.hulu.com/watch/1055081"
       },
       {
         num: 17,
         title: "Zero Larp Thirty",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/a/ac/BobsBurgers_701_ZeroLarpThirty_09_07_hires2.jpg/revision/latest?cb=20170418170206",
+        link: "https://www.hulu.com/watch/1067990"
       },
       {
         num: 18,
         title: "The Laser-inth",
-        img: "",
-        link: ""
+        img: "https://i.ytimg.com/vi/pc-5iycAUDY/maxresdefault.jpg",
+        link: "https://www.hulu.com/watch/1068318"
       },
       {
         num: 19,
         title: "Thelma & Louise Except Thelma is Linda",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/9/9f/BobsBurgers_703_ThelmaAndLouise_11_02_hires2.jpg/revision/latest?cb=20170426230711",
+        link: "https://www.hulu.com/watch/1072199"
       },
       {
         num: 20,
         title: "Mom, Lies, and Videotapes",
-        img: "",
-        link: ""
+        img: "https://i.ytimg.com/vi/VZKrgg6iysc/maxresdefault.jpg",
+        link: "https://www.hulu.com/watch/1075828"
       },
       {
         num: 21,
         title: "Paraders of the Lost Float",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/0/07/BobsBurgers_705_ParadersOfTheLostFloat_05_03_hires2.jpg/revision/latest?cb=20170427104320",
+        link: "https://www.hulu.com/watch/1082719"
       },
       {
         num: 22,
         title: "Into the Mild",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/e/ea/BobsBurgers_706_IntoTheMild_03_02_tk1-0055_hires2.jpg/revision/latest?cb=20170605183323",
+        link: "https://www.hulu.com/watch/1092089"
       }
     ]
   },
@@ -1020,44 +1020,44 @@ const bobsBurgers = [
       {
         num: 1,
         title: "Brunchsquatch",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/1/19/Brunch.png/revision/latest?cb=20170922144443",
+        link: "https://www.hulu.com/watch/1150613"
       },
       {
         num: 2,
         title: "The Silence of the Louise",
-        img: "",
-        link: ""
+        img: "https://d24v5oonnj2ncn.cloudfront.net/wp-content/uploads/2017/10/11015233/Bobs_709_TheSilenceOfTheLouise_3_hires2.jpg",
+        link: "https://www.hulu.com/watch/1157805"
       },
       {
         num: 3,
         title: "The Wolf of Wharf Street",
-        img: "",
-        link: ""
+        img: "http://s2.dmcdn.net/nawgb/1280x720-9pF.jpg",
+        link: "https://www.hulu.com/watch/1160808"
       },
       {
         num: 4,
         title: "Sit Me Baby One More Time",
-        img: "",
-        link: ""
+        img: "https://www.watchcartoononline.io/thumbs/bobs-burgers-season-8-episode-4-sit-me-baby-one-more-time.jpg",
+        link: "https://www.hulu.com/watch/1168451"
       },
       {
         num: 5,
         title: "Thanks-Hoarding",
-        img: "",
-        link: ""
+        img: "https://www.pogdesign.co.uk/cat/imgs/episodes/Bobs-Burgers/Bobs-Burgers-S08E02-29c42030e540b0e60a9a338740210591-full.jpg",
+        link: "https://www.hulu.com/watch/1177356"
       },
       {
         num: 6,
         title: "The Bleakening: Parts 1 & 2",
-        img: "",
-        link: ""
+        img: "https://i.ytimg.com/vi/NlFNby_dZIg/maxresdefault.jpg",
+        link: "https://www.hulu.com/watch/1189208"
       },
       {
         num: 7,
         title: "V for Valentine-detta",
-        img: "",
-        link: ""
+        img: "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/4/4b/BobsBurgers_722_VForValentine-Detta_03_04_tk2-0032_hires2.jpg/revision/latest?cb=20180104172003",
+        link: "https://www.hulu.com/watch/1204960"
       }
     ]
   }
