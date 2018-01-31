@@ -1291,31 +1291,38 @@ const lowRange = [
 const mediumRange = [
   {
     name: "Five Guys",
-    image: ""
+    image: "http://www.ctvisit.com/sites/default/files/five%20guys_1.png",
+    map: "https://www.google.com/maps/search/five+guys"
   },
   {
     name: "Chili's",
-    image: ""
+    image: "https://pbs.twimg.com/profile_images/895676609167937538/-1o6Yg8f_400x400.jpg",
+    map: "https://www.google.com/maps/search/chilis"
   },
   {
     name: "McAlister's Deli",
-    image: ""
+    image: "https://www.speedwaiter.com/editable/images/logos/front/2.jpg",
+    map: "https://www.google.com/maps/search/mcalisters+deli"
   },
   {
     name: "FATZ",
-    image: ""
+    image: "https://s-media-cache-ak0.pinimg.com/originals/ab/51/23/ab512398c022c07e5620d674848af9fa.jpg",
+    map: "https://www.google.com/maps/search/fatz"
   },
   {
     name: "Papa John's Pizza",
-    image: ""
+    image: "http://www.dealsinthesprings.com/wp-content/uploads/2016/08/papa-johns-pizza-1.png",
+    map: "https://www.google.com/maps/search/papa+johns+pizza"
   },
   {
     name: "Mellow Mushroom",
-    image: ""
+    image: "http://rivista-cdn.bethesdamagazine.com/MellowMushroom.jpg?ver=1434390622",
+    map: "https://www.google.com/maps/search/mellow+mushroom"
   },
   {
     name: "Subway",
-    image: ""
+    image: "http://makeitbournemouth.co.uk/wp-content/uploads/2016/05/subway-logo-square.jpg",
+    map: "https://www.google.com/maps/search/subway"
   }
 ];
 
@@ -1324,10 +1331,22 @@ const mediumRange = [
 const highRange = [
   {
     name: "Red Robin",
-    image: ""
+    image: "https://cblproperty.blob.core.windows.net/production/assets/blt5937073f9ea1858f-RedRobin_logo.png",
+    map: "https://www.google.com/maps/search/red+robin"
   },
   {
     name: "Olive Garden",
-    image: ""
+    image: "https://4vector.com/i/free-vector-olive-garden_079766_olive-garden.png",
+    map: "https://www.google.com/maps/search/olive+garden"
+  },
+  {
+    name: "Cheesecake Factory",
+    image: "https://fontmeme.com/images/chesecake-logo.png",
+    map: "https://www.google.com/maps/search/the+cheesecake+factory"
+  },
+  {
+    name: "Texas Roadhouse",
+    image: "https://lh3.ggpht.com/nhOw89_7pkmTtsa30jRLmb5voS_JO5dv0eJ6I6hAfPqa6dQNvcdpLY6WR-jO_kKcjg=w300",
+    map: "https://www.google.com/maps/search/texas+roadhouse"
   }
 ];
